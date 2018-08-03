@@ -1,0 +1,428 @@
+2018-07-17T17:24:59.081898011 0.040130s notice: Recursively removing directory /home/software/tenserFlow/Data/src/router/rethinkdb_data/tmp
+2018-07-17T17:24:59.099335021 0.057565s notice: Initializing directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-17T17:24:59.099507700 0.057738s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/software/tenserFlow/Data/src/router/rethinkdb_data' did not already exist or is empty.)
+2018-07-17T17:24:59.099562008 0.057792s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-17T17:24:59.110488748 0.068721s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-17T17:24:59.110562149 0.068792s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-17T17:24:59.379514007 0.337744s info: Automatically using cache size of 1152 MB
+2018-07-17T17:24:59.385901229 0.344131s notice: Listening for intracluster connections on port 29015
+2018-07-17T17:24:59.387137416 0.345367s notice: Listening for client driver connections on port 28015
+2018-07-17T17:24:59.387463159 0.345693s notice: Listening for administrative HTTP connections on port 2200
+2018-07-17T17:24:59.388455625 0.346686s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:e7ff:fe21:75b3%4, fe80::4c34:56ff:fe12:4f64%7, fe80::9835:83ff:fe7d:c37a%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-17T17:24:59.389694077 0.347924s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:e7ff:fe21:75b3%4, fe80::4c34:56ff:fe12:4f64%7, fe80::9835:83ff:fe7d:c37a%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-17T17:24:59.391341794 0.349572s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:e7ff:fe21:75b3%4, fe80::4c34:56ff:fe12:4f64%7, fe80::9835:83ff:fe7d:c37a%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-17T17:24:59.391349649 0.349580s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-19T16:00:30.891381606 0.082070s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-19T16:00:30.894653949 0.085344s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-19T16:00:30.894765879 0.085453s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-19T16:00:31.033713533 0.224402s info: Automatically using cache size of 1261 MB
+2018-07-19T16:00:31.038689946 0.229378s notice: Listening for intracluster connections on port 29015
+2018-07-19T16:00:31.045951966 0.236640s notice: Listening for client driver connections on port 28015
+2018-07-19T16:00:31.046236482 0.236924s notice: Listening for administrative HTTP connections on port 2200
+2018-07-19T16:00:31.047509600 0.238197s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:64ff:fea3:efdd%5, fe80::80b8:ccff:fe36:c480%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::e473:59ff:fea1:b00%9
+2018-07-19T16:00:31.048719270 0.239407s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:64ff:fea3:efdd%5, fe80::80b8:ccff:fe36:c480%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::e473:59ff:fea1:b00%9
+2018-07-19T16:00:31.050165090 0.240853s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:64ff:fea3:efdd%5, fe80::80b8:ccff:fe36:c480%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::e473:59ff:fea1:b00%9
+2018-07-19T16:00:31.050228639 0.240916s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-19T16:07:00.636896706 389.827585s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Starting a new Raft election for term 1.
+2018-07-19T16:07:00.637413272 389.828101s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Added replica on this server.
+2018-07-19T16:07:00.753259706 389.943948s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-19T16:07:41.512387438 430.703075s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-19T16:07:41.512443993 430.703132s notice: Shutting down client connections...
+2018-07-19T16:07:41.532658472 430.723346s notice: All client connections closed.
+2018-07-19T16:07:41.532669093 430.723356s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-19T16:07:41.543922727 430.734610s notice: Storage engine shut down.
+2018-07-19T16:07:44.050315740 0.075794s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-19T16:07:44.053969495 0.079450s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-19T16:07:44.054038445 0.079516s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-19T16:07:44.128310763 0.153789s info: Automatically using cache size of 1219 MB
+2018-07-19T16:07:44.130535717 0.156014s notice: Listening for intracluster connections on port 29015
+2018-07-19T16:07:44.180373786 0.205852s notice: Listening for client driver connections on port 28015
+2018-07-19T16:07:44.189721023 0.215199s notice: Listening for administrative HTTP connections on port 2200
+2018-07-19T16:07:44.192015714 0.217494s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:64ff:fea3:efdd%5, fe80::80b8:ccff:fe36:c480%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::e473:59ff:fea1:b00%9
+2018-07-19T16:07:44.193477640 0.218956s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:64ff:fea3:efdd%5, fe80::80b8:ccff:fe36:c480%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::e473:59ff:fea1:b00%9
+2018-07-19T16:07:44.194943156 0.220421s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:64ff:fea3:efdd%5, fe80::80b8:ccff:fe36:c480%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::e473:59ff:fea1:b00%9
+2018-07-19T16:07:44.195114959 0.220593s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-19T16:07:46.140963555 2.166442s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Starting a new Raft election for term 2.
+2018-07-19T16:07:46.185879053 2.211357s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: This server is Raft leader for term 2. Latest log index is 2.
+2018-07-20T11:42:12.908408130 0.032967s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-20T11:42:12.932368593 0.056932s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T11:42:12.932512471 0.057071s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-20T11:42:13.141100680 0.265659s info: Automatically using cache size of 2325 MB
+2018-07-20T11:42:13.157947343 0.282506s notice: Listening for intracluster connections on port 29015
+2018-07-20T11:42:13.360613183 0.485172s notice: Listening for client driver connections on port 28015
+2018-07-20T11:42:13.360946273 0.485505s notice: Listening for administrative HTTP connections on port 2200
+2018-07-20T11:42:13.363541525 0.488100s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T11:42:13.365812320 0.490371s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T11:42:13.368817224 0.493376s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T11:42:13.368825188 0.493383s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-20T11:42:14.716380804 1.840940s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Starting a new Raft election for term 3.
+2018-07-20T11:42:14.755213969 1.879772s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: This server is Raft leader for term 3. Latest log index is 5.
+2018-07-20T15:03:35.525599840 12082.650158s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-20T15:03:35.525673772 12082.650232s notice: Shutting down client connections...
+2018-07-20T15:03:35.525733582 12082.650292s notice: All client connections closed.
+2018-07-20T15:03:35.525735784 12082.650294s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-20T15:03:35.539898354 12082.664457s notice: Storage engine shut down.
+2018-07-20T15:03:36.954127532 0.030018s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-20T15:03:36.965002044 0.040906s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T15:03:36.966322746 0.042244s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-20T15:03:37.060060463 0.135958s info: Automatically using cache size of 1400 MB
+2018-07-20T15:03:37.064208145 0.140098s notice: Listening for intracluster connections on port 29015
+2018-07-20T15:03:37.113731329 0.189622s notice: Listening for client driver connections on port 28015
+2018-07-20T15:03:37.115968199 0.191858s notice: Listening for administrative HTTP connections on port 2200
+2018-07-20T15:03:37.118640918 0.194531s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:03:37.120332781 0.196223s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:03:37.121426381 0.197316s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:03:37.121551585 0.197441s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-20T15:03:38.843087559 1.918978s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Starting a new Raft election for term 4.
+2018-07-20T15:03:38.887149639 1.963040s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: This server is Raft leader for term 4. Latest log index is 9.
+2018-07-20T15:11:14.362158607 457.438049s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-20T15:11:14.362222946 457.438113s notice: Shutting down client connections...
+2018-07-20T15:11:14.363627435 457.439518s notice: All client connections closed.
+2018-07-20T15:11:14.363629453 457.439519s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-20T15:11:14.365342075 457.441232s notice: Storage engine shut down.
+2018-07-20T15:11:20.429888925 0.009452s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-20T15:11:20.436818592 0.016384s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T15:11:20.436908810 0.016471s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-20T15:11:20.520434210 0.099997s info: Automatically using cache size of 1734 MB
+2018-07-20T15:11:20.524179223 0.103742s notice: Listening for intracluster connections on port 29015
+2018-07-20T15:11:20.573987331 0.153550s notice: Listening for client driver connections on port 28015
+2018-07-20T15:11:20.574287439 0.153850s notice: Listening for administrative HTTP connections on port 2200
+2018-07-20T15:11:20.577516409 0.157079s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:11:20.579076580 0.158639s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:11:20.581264958 0.160827s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:11:20.581392274 0.160955s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-20T15:11:22.165740793 1.745304s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Starting a new Raft election for term 5.
+2018-07-20T15:11:22.250544029 1.830107s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: This server is Raft leader for term 5. Latest log index is 12.
+2018-07-20T15:45:37.117510839 2056.697079s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-20T15:45:37.118622333 2056.698185s notice: Shutting down client connections...
+2018-07-20T15:45:37.118708903 2056.698271s notice: All client connections closed.
+2018-07-20T15:45:37.118712930 2056.698275s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-20T15:45:37.120966278 2056.700529s notice: Storage engine shut down.
+2018-07-20T15:45:38.794237685 0.026098s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-20T15:45:38.797694339 0.029556s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T15:45:38.797759263 0.029619s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-20T15:45:38.895681460 0.127541s info: Automatically using cache size of 1596 MB
+2018-07-20T15:45:38.897879389 0.129739s notice: Listening for intracluster connections on port 29015
+2018-07-20T15:45:38.947807171 0.179668s notice: Listening for client driver connections on port 28015
+2018-07-20T15:45:38.948664301 0.180525s notice: Listening for administrative HTTP connections on port 2200
+2018-07-20T15:45:38.950688484 0.182548s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:45:38.952152904 0.184013s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:45:38.953292594 0.185152s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:f5ff:fe32:9aa%5, fe80::487c:59ff:fe5d:ce8e%9, fe80::8870:87ff:fe77:32fd%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-20T15:45:38.953299096 0.185159s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-20T15:45:40.581544134 1.813404s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Starting a new Raft election for term 6.
+2018-07-20T15:45:40.629305905 1.861166s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: This server is Raft leader for term 6. Latest log index is 15.
+2018-07-20T17:33:54.300457400 6495.532317s notice: Removing file /home/software/tenserFlow/Data/src/router/rethinkdb_data/8ea2644b-16c4-4e49-b602-e4b88494ce2e
+2018-07-20T17:33:54.302655253 6495.534515s info: Table 8ea2644b-16c4-4e49-b602-e4b88494ce2e: Deleted the table.
+2018-07-20T17:34:01.510501263 6502.742361s info: Table ffa828dc-9901-43d4-a8b9-363bbc5e4626: Starting a new Raft election for term 1.
+2018-07-20T17:34:01.510795999 6502.742656s info: Table ffa828dc-9901-43d4-a8b9-363bbc5e4626: Added replica on this server.
+2018-07-20T17:34:01.600003667 6502.831864s info: Table ffa828dc-9901-43d4-a8b9-363bbc5e4626: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T17:41:55.963917198 6977.195777s notice: Removing file /home/software/tenserFlow/Data/src/router/rethinkdb_data/ffa828dc-9901-43d4-a8b9-363bbc5e4626
+2018-07-20T17:41:55.963928276 6977.195788s info: Table ffa828dc-9901-43d4-a8b9-363bbc5e4626: Deleted the table.
+2018-07-20T17:42:02.590987011 6983.822847s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 1.
+2018-07-20T17:42:02.591141310 6983.823001s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Added replica on this server.
+2018-07-20T17:42:02.670086175 6983.901946s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-24T10:56:18.176352502 0.711424s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-24T10:56:19.295069397 1.830143s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-24T10:56:19.295748790 1.830819s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-24T10:56:22.658898173 5.193969s info: Automatically using cache size of 2289 MB
+2018-07-24T10:56:22.775243755 5.310315s notice: Listening for intracluster connections on port 29015
+2018-07-24T10:56:29.172691164 11.707762s notice: Listening for client driver connections on port 28015
+2018-07-24T10:56:29.174628037 11.709700s notice: Listening for administrative HTTP connections on port 8081
+2018-07-24T10:56:29.178426148 11.713497s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:d9ff:fe9d:657c%4, fe80::8c0c:66ff:fe47:5e55%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::dc27:8ff:fe11:9805%9
+2018-07-24T10:56:29.179726736 11.714797s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:d9ff:fe9d:657c%4, fe80::8c0c:66ff:fe47:5e55%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::dc27:8ff:fe11:9805%9
+2018-07-24T10:56:29.181251677 11.716322s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:d9ff:fe9d:657c%4, fe80::8c0c:66ff:fe47:5e55%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::dc27:8ff:fe11:9805%9
+2018-07-24T10:56:29.181254385 11.716325s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-24T10:56:29.181310737 11.716381s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-24T10:56:29.519716094 12.054787s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2018-07-24T10:56:29.520749141 12.055820s notice: Shutting down client connections...
+2018-07-24T10:56:30.729361671 13.264433s notice: All client connections closed.
+2018-07-24T10:56:30.729384227 13.264455s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-24T10:56:30.738675290 13.273746s notice: Storage engine shut down.
+2018-07-24T10:57:29.191516041 0.089504s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-24T10:57:29.197021337 0.095011s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-24T10:57:29.197162261 0.095150s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-24T10:57:29.356271631 0.254259s info: Automatically using cache size of 2098 MB
+2018-07-24T10:57:29.361717570 0.259705s notice: Listening for intracluster connections on port 29015
+2018-07-24T10:57:29.448984881 0.346973s notice: Listening for client driver connections on port 28015
+2018-07-24T10:57:29.450268167 0.348256s notice: Listening for administrative HTTP connections on port 8081
+2018-07-24T10:57:29.455236015 0.353224s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:d9ff:fe9d:657c%4, fe80::8c0c:66ff:fe47:5e55%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::dc27:8ff:fe11:9805%9
+2018-07-24T10:57:29.456894067 0.354882s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:d9ff:fe9d:657c%4, fe80::8c0c:66ff:fe47:5e55%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::dc27:8ff:fe11:9805%9
+2018-07-24T10:57:29.458366146 0.356354s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:d9ff:fe9d:657c%4, fe80::8c0c:66ff:fe47:5e55%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::dc27:8ff:fe11:9805%9
+2018-07-24T10:57:29.458376359 0.356364s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-24T10:57:30.612280343 1.510268s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 2.
+2018-07-24T10:57:30.747581005 1.645569s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 2. Latest log index is 2.
+2018-07-25T11:09:31.412416017 0.084387s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-25T11:09:31.440076098 0.112048s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-25T11:09:31.440142463 0.112112s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-25T11:09:31.668369888 0.340341s info: Automatically using cache size of 2350 MB
+2018-07-25T11:09:31.688270544 0.360241s notice: Listening for intracluster connections on port 29015
+2018-07-25T11:09:31.889459943 0.561430s notice: Listening for client driver connections on port 28015
+2018-07-25T11:09:31.889604530 0.561574s notice: Listening for administrative HTTP connections on port 8081
+2018-07-25T11:09:31.892020013 0.563990s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T11:09:31.892795033 0.564765s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T11:09:31.893778959 0.565749s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T11:09:31.893804114 0.565774s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-25T11:09:33.230298653 1.902269s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 3.
+2018-07-25T11:09:33.286719533 1.958690s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 3. Latest log index is 5.
+2018-07-25T17:11:18.580196985 21707.252167s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-25T17:11:18.580250971 21707.252221s notice: Shutting down client connections...
+2018-07-25T17:11:18.586610188 21707.258580s notice: All client connections closed.
+2018-07-25T17:11:18.586620625 21707.258590s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-25T17:11:18.620733127 21707.292703s notice: Storage engine shut down.
+2018-07-25T17:11:21.146561660 0.036988s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-25T17:11:21.150376044 0.040804s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-25T17:11:21.150428367 0.040854s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-25T17:11:21.243868356 0.134294s info: Automatically using cache size of 1385 MB
+2018-07-25T17:11:21.245490600 0.135916s notice: Listening for intracluster connections on port 29015
+2018-07-25T17:11:21.297425044 0.187851s notice: Listening for client driver connections on port 28015
+2018-07-25T17:11:21.297545470 0.187971s notice: Listening for administrative HTTP connections on port 8081
+2018-07-25T17:11:21.298756797 0.189183s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T17:11:21.299664511 0.190090s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T17:11:21.300655965 0.191082s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T17:11:21.300704189 0.191130s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-25T17:11:23.145000650 2.035427s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 4.
+2018-07-25T17:11:23.229892951 2.120319s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 4. Latest log index is 8.
+2018-07-25T17:15:16.355722325 0.018964s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-25T17:15:16.361449455 0.024692s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-25T17:15:16.361497198 0.024738s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-25T17:15:16.433025875 0.096267s info: Automatically using cache size of 2359 MB
+2018-07-25T17:15:16.434898256 0.098139s notice: Listening for intracluster connections on port 29015
+2018-07-25T17:15:16.489324247 0.152565s notice: Listening for client driver connections on port 28015
+2018-07-25T17:15:16.489479048 0.152720s notice: Listening for administrative HTTP connections on port 8081
+2018-07-25T17:15:16.491268812 0.154510s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T17:15:16.492441364 0.155682s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T17:15:16.493340553 0.156581s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:b7ff:fecc:2890%4, fe80::1c5e:9ff:fe5a:2f0f%9, fe80::3c2a:d4ff:fe4a:be56%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-25T17:15:16.493349400 0.156590s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-25T17:15:18.180481178 1.843722s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 5.
+2018-07-25T17:15:18.232035313 1.895276s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 5. Latest log index is 12.
+2018-07-25T19:54:14.153962084 0.322339s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-25T19:54:14.195922800 0.364302s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-25T19:54:14.196030437 0.364406s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-25T19:54:14.812431091 0.980807s info: Automatically using cache size of 2871 MB
+2018-07-25T19:54:14.815360370 0.983737s notice: Listening for intracluster connections on port 29015
+2018-07-25T19:54:16.234385445 2.402762s notice: Listening for client driver connections on port 28015
+2018-07-25T19:54:16.234519710 2.402896s notice: Listening for administrative HTTP connections on port 8081
+2018-07-25T19:54:16.235835154 2.404211s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:36ff:feb1:9027%4, fe80::18a8:7fff:fef2:849a%9, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::f411:3cff:fe31:a7d9%7
+2018-07-25T19:54:16.236615584 2.404992s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:36ff:feb1:9027%4, fe80::18a8:7fff:fef2:849a%9, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::f411:3cff:fe31:a7d9%7
+2018-07-25T19:54:16.237325749 2.405702s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:36ff:feb1:9027%4, fe80::18a8:7fff:fef2:849a%9, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::f411:3cff:fe31:a7d9%7
+2018-07-25T19:54:16.237331457 2.405707s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-25T19:54:18.082014188 4.250390s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 6.
+2018-07-25T19:54:18.265343462 4.433720s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 6. Latest log index is 15.
+2018-07-25T19:58:12.420429216 238.588807s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-25T19:58:12.420555846 238.588932s notice: Shutting down client connections...
+2018-07-25T19:58:12.434481452 238.602858s notice: All client connections closed.
+2018-07-25T19:58:12.434491548 238.602867s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-25T19:58:12.466804533 238.635186s notice: Storage engine shut down.
+2018-07-25T19:58:13.898089416 0.025549s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-25T19:58:13.902980041 0.030441s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-25T19:58:13.903044707 0.030504s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-25T19:58:13.979932190 0.107392s info: Automatically using cache size of 2190 MB
+2018-07-25T19:58:13.984113205 0.111573s notice: Listening for intracluster connections on port 29015
+2018-07-25T19:58:14.040698534 0.168159s notice: Listening for client driver connections on port 28015
+2018-07-25T19:58:14.041070016 0.168529s notice: Listening for administrative HTTP connections on port 8081
+2018-07-25T19:58:14.042631353 0.170091s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:36ff:feb1:9027%4, fe80::18a8:7fff:fef2:849a%9, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::f411:3cff:fe31:a7d9%7
+2018-07-25T19:58:14.045173704 0.172633s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:36ff:feb1:9027%4, fe80::18a8:7fff:fef2:849a%9, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::f411:3cff:fe31:a7d9%7
+2018-07-25T19:58:14.051051038 0.178511s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:36ff:feb1:9027%4, fe80::18a8:7fff:fef2:849a%9, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::f411:3cff:fe31:a7d9%7
+2018-07-25T19:58:14.051059611 0.178519s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-25T19:58:15.699852962 1.827312s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 7.
+2018-07-25T19:58:15.749735955 1.877195s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 7. Latest log index is 18.
+2018-07-26T10:43:36.980785323 0.444755s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-26T10:43:37.168053761 0.632037s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-26T10:43:37.168875856 0.632845s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-26T10:43:38.803896800 2.267866s info: Automatically using cache size of 2279 MB
+2018-07-26T10:43:38.862683417 2.326653s notice: Listening for intracluster connections on port 29015
+2018-07-26T10:43:39.626594781 3.090564s notice: Listening for client driver connections on port 28015
+2018-07-26T10:43:39.627110526 3.091080s notice: Listening for administrative HTTP connections on port 8081
+2018-07-26T10:43:39.629873273 3.093843s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T10:43:39.631007165 3.094976s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T10:43:39.631926941 3.095895s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T10:43:39.631929464 3.095898s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-26T10:43:40.792604582 4.256574s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 8.
+2018-07-26T10:43:41.009822581 4.473792s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 8. Latest log index is 21.
+2018-07-26T12:50:25.546506157 7609.010476s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-26T12:50:25.546638779 7609.010608s notice: Shutting down client connections...
+2018-07-26T12:50:25.554169694 7609.018139s notice: All client connections closed.
+2018-07-26T12:50:25.554197724 7609.018166s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-26T12:50:25.577494689 7609.041464s notice: Storage engine shut down.
+2018-07-26T12:50:26.799658396 0.023759s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-26T12:50:26.811986972 0.036089s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-26T12:50:26.812048522 0.036148s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-26T12:50:26.897677556 0.121778s info: Automatically using cache size of 1257 MB
+2018-07-26T12:50:26.899405082 0.123505s notice: Listening for intracluster connections on port 29015
+2018-07-26T12:50:26.960647099 0.184747s notice: Listening for client driver connections on port 28015
+2018-07-26T12:50:26.960786818 0.184887s notice: Listening for administrative HTTP connections on port 8081
+2018-07-26T12:50:26.963608418 0.187708s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T12:50:26.965673965 0.189774s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T12:50:26.967547250 0.191647s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T12:50:26.967553218 0.191653s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-26T12:50:28.671921887 1.896022s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 9.
+2018-07-26T12:50:28.723058745 1.947159s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 9. Latest log index is 25.
+2018-07-26T14:15:49.326518450 5122.550619s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-26T14:15:49.326649520 5122.550749s notice: Shutting down client connections...
+2018-07-26T14:15:49.332748926 5122.556849s notice: All client connections closed.
+2018-07-26T14:15:49.332755164 5122.556855s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-26T14:15:49.335300912 5122.559401s notice: Storage engine shut down.
+2018-07-26T14:15:49.942785249 0.032737s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-26T14:15:49.948453033 0.038406s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-26T14:15:49.948513691 0.038465s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-26T14:15:50.023425838 0.113377s info: Automatically using cache size of 1209 MB
+2018-07-26T14:15:50.026225358 0.116176s notice: Listening for intracluster connections on port 29015
+2018-07-26T14:15:50.111748581 0.201700s notice: Listening for client driver connections on port 28015
+2018-07-26T14:15:50.112084750 0.202036s notice: Listening for administrative HTTP connections on port 8081
+2018-07-26T14:15:50.113457402 0.203408s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T14:15:50.114264924 0.204216s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T14:15:50.115164472 0.205115s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T14:15:50.115315534 0.205266s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-26T14:15:51.433043959 1.522995s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 10.
+2018-07-26T14:15:51.482796548 1.572748s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 10. Latest log index is 29.
+2018-07-26T14:26:14.264772190 624.354723s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-26T14:26:14.264844305 624.354795s notice: Shutting down client connections...
+2018-07-26T14:26:14.265066344 624.355018s notice: All client connections closed.
+2018-07-26T14:26:14.265069749 624.355021s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-26T14:26:14.284031942 624.373983s notice: Storage engine shut down.
+2018-07-26T14:26:15.828641464 0.006813s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-26T14:26:15.832027724 0.010201s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-26T14:26:15.832086788 0.010258s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-26T14:26:15.917026039 0.095198s info: Automatically using cache size of 1231 MB
+2018-07-26T14:26:15.919668110 0.097840s notice: Listening for intracluster connections on port 29015
+2018-07-26T14:26:15.974717666 0.152889s notice: Listening for client driver connections on port 28015
+2018-07-26T14:26:15.975662312 0.153834s notice: Listening for administrative HTTP connections on port 8081
+2018-07-26T14:26:15.977992673 0.156164s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T14:26:15.979325668 0.157497s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T14:26:15.981992887 0.160164s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T14:26:15.981999650 0.160171s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-26T14:26:17.844427151 2.022599s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Starting a new Raft election for term 11.
+2018-07-26T14:26:17.897443857 2.075616s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: This server is Raft leader for term 11. Latest log index is 32.
+2018-07-26T14:41:30.448441047 914.626613s notice: Removing file /home/software/tenserFlow/Data/src/router/rethinkdb_data/1160a209-b010-45c5-8d1b-7c783110e729
+2018-07-26T14:41:30.448452654 914.626624s info: Table 1160a209-b010-45c5-8d1b-7c783110e729: Deleted the table.
+2018-07-26T14:41:37.146305305 921.324477s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 1.
+2018-07-26T14:41:37.146940493 921.325113s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Added replica on this server.
+2018-07-26T14:41:37.197132585 921.375304s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-26T16:36:45.793766575 7829.971940s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-26T16:36:45.793929000 7829.972101s notice: Shutting down client connections...
+2018-07-26T16:36:45.794337758 7829.972510s notice: All client connections closed.
+2018-07-26T16:36:45.794345012 7829.972517s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-26T16:36:45.798642425 7829.976815s notice: Storage engine shut down.
+2018-07-26T16:36:47.023439308 0.031269s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-26T16:36:47.026653663 0.034486s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-26T16:36:47.026707781 0.034537s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-26T16:36:47.109346441 0.117176s info: Automatically using cache size of 1578 MB
+2018-07-26T16:36:47.111254889 0.119085s notice: Listening for intracluster connections on port 29015
+2018-07-26T16:36:47.157314319 0.165144s notice: Listening for client driver connections on port 28015
+2018-07-26T16:36:47.157864113 0.165694s notice: Listening for administrative HTTP connections on port 8081
+2018-07-26T16:36:47.159802575 0.167632s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T16:36:47.160818209 0.168648s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T16:36:47.161680758 0.169510s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T16:36:47.161689031 0.169518s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-26T16:36:48.876171008 1.884001s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 2.
+2018-07-26T16:36:48.941192194 1.949022s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 2. Latest log index is 2.
+2018-07-26T16:55:20.293436856 1113.301267s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-26T16:55:20.293506389 1113.301336s notice: Shutting down client connections...
+2018-07-26T16:55:20.293748869 1113.301578s notice: All client connections closed.
+2018-07-26T16:55:20.293756380 1113.301586s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-26T16:55:20.295828820 1113.303659s notice: Storage engine shut down.
+2018-07-26T16:55:34.832532052 0.038061s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-26T16:55:34.856756775 0.062288s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-26T16:55:34.856838243 0.062367s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-26T16:55:34.966501069 0.172030s info: Automatically using cache size of 1213 MB
+2018-07-26T16:55:34.970087038 0.175616s notice: Listening for intracluster connections on port 29015
+2018-07-26T16:55:35.017453068 0.222982s notice: Listening for client driver connections on port 28015
+2018-07-26T16:55:35.018479701 0.224014s notice: Listening for administrative HTTP connections on port 8081
+2018-07-26T16:55:35.020921778 0.226450s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T16:55:35.024591114 0.230120s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T16:55:35.026031547 0.231560s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:daff:fe74:f333%4, fe80::44d6:bcff:fea6:53cb%9, fe80::8cac:bfff:fe2d:91e9%7, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-26T16:55:35.026043271 0.231572s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-26T16:55:36.871511686 2.077041s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 3.
+2018-07-26T16:55:36.926707210 2.132236s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 3. Latest log index is 5.
+2018-07-30T11:57:36.411395153 0.587093s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-30T11:57:36.563552181 0.739252s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-30T11:57:36.563694794 0.739392s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-30T11:57:38.499767971 2.675466s info: Automatically using cache size of 2490 MB
+2018-07-30T11:57:38.542337850 2.718036s notice: Listening for intracluster connections on port 29015
+2018-07-30T11:57:47.695576775 11.871275s notice: Listening for client driver connections on port 28015
+2018-07-30T11:57:47.696065287 11.871764s notice: Listening for administrative HTTP connections on port 8081
+2018-07-30T11:57:47.699703980 11.875402s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:82ff:fea7:217e%4, fe80::3484:55ff:fef1:b150%7, fe80::78d5:b3ff:fe09:5963%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-30T11:57:47.701830339 11.877529s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:82ff:fea7:217e%4, fe80::3484:55ff:fef1:b150%7, fe80::78d5:b3ff:fe09:5963%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-30T11:57:47.703544642 11.879243s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:82ff:fea7:217e%4, fe80::3484:55ff:fef1:b150%7, fe80::78d5:b3ff:fe09:5963%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-30T11:57:47.703906929 11.879605s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-30T11:57:48.669247094 12.844945s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 4.
+2018-07-30T11:57:48.770983175 12.946681s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 4. Latest log index is 8.
+2018-07-30T12:06:00.475696165 504.651394s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-30T12:06:00.475855988 504.651554s notice: Shutting down client connections...
+2018-07-30T12:06:00.487580077 504.663278s notice: All client connections closed.
+2018-07-30T12:06:00.487651467 504.663349s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-30T12:06:00.514045753 504.689743s notice: Storage engine shut down.
+2018-07-30T12:06:02.284444748 0.007056s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-30T12:06:02.288519473 0.011133s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-30T12:06:02.288576716 0.011188s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-30T12:06:02.426162412 0.148775s info: Automatically using cache size of 1950 MB
+2018-07-30T12:06:02.430869496 0.153481s notice: Listening for intracluster connections on port 29015
+2018-07-30T12:06:02.475195417 0.197807s notice: Listening for client driver connections on port 28015
+2018-07-30T12:06:02.476383211 0.198995s notice: Listening for administrative HTTP connections on port 8081
+2018-07-30T12:06:02.477632702 0.200244s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:82ff:fea7:217e%4, fe80::3484:55ff:fef1:b150%7, fe80::78d5:b3ff:fe09:5963%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-30T12:06:02.482658253 0.205270s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:82ff:fea7:217e%4, fe80::3484:55ff:fef1:b150%7, fe80::78d5:b3ff:fe09:5963%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-30T12:06:02.483479939 0.206091s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:82ff:fea7:217e%4, fe80::3484:55ff:fef1:b150%7, fe80::78d5:b3ff:fe09:5963%9, fe80::a9c8:39f8:f6ad:9fe6%2
+2018-07-30T12:06:02.483488877 0.206100s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-30T12:06:04.360847002 2.083459s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 5.
+2018-07-30T12:06:04.401368279 2.123980s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 5. Latest log index is 11.
+2018-07-31T11:12:02.238478678 0.040941s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-31T11:12:02.266355130 0.068820s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-31T11:12:02.266423723 0.068886s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-07-31T11:12:02.538733588 0.341196s info: Automatically using cache size of 1789 MB
+2018-07-31T11:12:02.553454687 0.355917s notice: Listening for intracluster connections on port 29015
+2018-07-31T11:12:02.829745361 0.632211s notice: Listening for client driver connections on port 28015
+2018-07-31T11:12:02.831194019 0.633657s notice: Listening for administrative HTTP connections on port 8081
+2018-07-31T11:12:02.834077135 0.636539s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:bff:fe26:178a%4, fe80::84dd:f6ff:fecb:926f%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::ec84:9aff:fe7d:754c%9
+2018-07-31T11:12:02.840934208 0.643397s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:bff:fe26:178a%4, fe80::84dd:f6ff:fecb:926f%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::ec84:9aff:fe7d:754c%9
+2018-07-31T11:12:02.843225969 0.645688s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:bff:fe26:178a%4, fe80::84dd:f6ff:fecb:926f%7, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::ec84:9aff:fe7d:754c%9
+2018-07-31T11:12:02.843311553 0.645774s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-07-31T11:12:04.200544810 2.003007s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 6.
+2018-07-31T11:12:04.258841113 2.061304s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 6. Latest log index is 14.
+2018-08-01T11:00:02.281482977 0.533446s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-08-01T11:00:02.423974884 0.675940s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-08-01T11:00:02.424055837 0.676018s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-08-01T11:00:03.666882129 1.918844s info: Automatically using cache size of 2481 MB
+2018-08-01T11:00:03.699597128 1.951560s notice: Listening for intracluster connections on port 29015
+2018-08-01T11:00:04.988459824 3.240422s notice: Listening for client driver connections on port 28015
+2018-08-01T11:00:04.989224864 3.241187s notice: Listening for administrative HTTP connections on port 8081
+2018-08-01T11:00:04.992953862 3.244916s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:caff:fe8a:ef43%4, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::c83b:9fff:fe11:79e%9, fe80::d476:dbff:fe90:14fd%7
+2018-08-01T11:00:04.997887169 3.249849s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:caff:fe8a:ef43%4, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::c83b:9fff:fe11:79e%9, fe80::d476:dbff:fe90:14fd%7
+2018-08-01T11:00:04.999089681 3.251052s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:caff:fe8a:ef43%4, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::c83b:9fff:fe11:79e%9, fe80::d476:dbff:fe90:14fd%7
+2018-08-01T11:00:04.999141928 3.251104s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-08-01T11:00:06.279126253 4.531089s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 7.
+2018-08-01T11:00:06.363082995 4.615045s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 7. Latest log index is 17.
+2018-08-01T15:42:38.996379000 16957.248341s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Starting a new Raft election for term 1.
+2018-08-01T15:42:38.996776196 16957.248738s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Added replica on this server.
+2018-08-01T15:42:39.051575073 16957.303537s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: This server is Raft leader for term 1. Latest log index is 0.
+2018-08-01T15:42:40.061363604 16958.313326s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Configuration is changing.
+2018-08-01T15:42:40.061731498 16958.313694s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Configuration is changing.
+2018-08-01T15:42:40.061795675 16958.313757s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Configuration is changing.
+2018-08-01T15:42:40.064428311 16958.316390s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Configuration is changing.
+2018-08-01T15:42:40.064439323 16958.316401s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Configuration is changing.
+2018-08-01T15:57:33.768480448 17852.020443s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-08-01T15:57:33.768552667 17852.020515s notice: Shutting down client connections...
+2018-08-01T15:57:33.775131297 17852.027093s notice: All client connections closed.
+2018-08-01T15:57:33.775138016 17852.027100s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-01T15:57:33.798764718 17852.050727s notice: Storage engine shut down.
+2018-08-02T15:34:38.438924223 0.248162s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-08-02T15:34:38.480055442 0.289300s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-08-02T15:34:38.480212403 0.289449s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-08-02T15:34:38.724044635 0.533282s info: Automatically using cache size of 100 MB
+2018-08-02T15:34:38.738426410 0.547664s warn: Cache size does not leave much memory for server and query overhead (available memory: 694 MB).
+2018-08-02T15:34:38.738455196 0.547692s warn: Cache size is very low and may impact performance.
+2018-08-02T15:34:38.740225759 0.549463s error: TCP socket creation failed for port 29015: Address already in use.
+2018-08-03T11:05:33.613542252 0.027922s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-08-03T11:05:33.656804797 0.071191s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-08-03T11:05:33.656975586 0.071355s notice: Loading data from directory /home/software/tenserFlow/Data/src/router/rethinkdb_data
+2018-08-03T11:05:33.929506425 0.343886s info: Automatically using cache size of 2222 MB
+2018-08-03T11:05:33.939433198 0.353813s notice: Listening for intracluster connections on port 29015
+2018-08-03T11:05:34.387981652 0.802361s notice: Listening for client driver connections on port 28015
+2018-08-03T11:05:34.388160611 0.802540s notice: Listening for administrative HTTP connections on port 8081
+2018-08-03T11:05:34.389582929 0.803962s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:17ff:fe38:a7e6%4, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::ac52:40ff:fe80:5a00%7, fe80::d0b9:d5ff:fead:6c5%9
+2018-08-03T11:05:34.390549585 0.804929s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:17ff:fe38:a7e6%4, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::ac52:40ff:fe80:5a00%7, fe80::d0b9:d5ff:fead:6c5%9
+2018-08-03T11:05:34.392615750 0.806995s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 172.18.0.1, 127.0.1.1, 172.16.60.75, ::1, fe80::42:17ff:fe38:a7e6%4, fe80::a9c8:39f8:f6ad:9fe6%2, fe80::ac52:40ff:fe80:5a00%7, fe80::d0b9:d5ff:fead:6c5%9
+2018-08-03T11:05:34.392624163 0.807003s notice: Server ready, "OBPC_1033_f3b" 4e5b7d92-fa09-4daf-93ce-268d491eac0f
+2018-08-03T11:05:35.535777861 1.950157s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: Starting a new Raft election for term 8.
+2018-08-03T11:05:35.591642765 2.006022s info: Table 20302c81-5e43-4f0e-a322-0e84562a91ae: This server is Raft leader for term 8. Latest log index is 20.
+2018-08-03T11:05:35.950660755 2.365040s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: Starting a new Raft election for term 2.
+2018-08-03T11:05:36.050075375 2.464455s info: Table 2af92df8-966e-41a4-a943-52dbc93f49f9: This server is Raft leader for term 2. Latest log index is 12.
