@@ -18,30 +18,6 @@ var r = require('rethinkdbdash')({
     host: 'localhost',
     db: 'tenserflow'
 })
-// app.post('/HelloWorld',function(req, res){
-//     console.log("Message Get", req.query)
-//     r.table('user')
-//     .insert(req.body)
-//     .run()
-//     .then(function (response){
-//         console.log('Success', response);
-//         res.send(response)
-//     })
-//     .error(function (err){
-//         console.log('error occurred', err);
-//         res.send(err)
-//     })  
-// })
-// app.get('/HelloWorld',function(req,res){
-// console.log("Message gotiot", req.query)
-// r.table('user').run().then(function(result){
-//     res.send(result)
-// })
-// .error(function (err){
-//     res.send(err)
-// })
-
-// })
 app.post('/data', function (req, res) {
   console.log("Message Post",req.query, req.body)
   r.table("tenserdata")
