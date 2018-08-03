@@ -67,9 +67,11 @@ app.delete('/data/:id', function (req,res) {
     res.send(err)
   })
 });
-
-app.patch("/data/:id", function (req, res) {
-  console.log("Message PUT", req.query,req.params)
+app.put("/data/:id", async function (req, res) {
+  console.log("Message PATCH", req.query,req.params)
+  console.log(req.body);
+  let data = await r.table("tenserdata").get(req.params.id)
+  req.body.images.push(data.images)
   r.table("tenserdata").get(req.params.id)
    .update(req.body)
    .run()

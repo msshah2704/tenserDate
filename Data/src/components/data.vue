@@ -168,7 +168,6 @@ export default {
                     self.formValidate.email = params.row.email
                     self.formValidate.mobile = params.row.mobile
                     self.formValidate.address = params.row.address
-                    self.formValidate.images = params.row.images
                   }
                 }
               } , 'Edit')
@@ -218,7 +217,7 @@ export default {
       console.log(id)
           this.$Message.success("Success!")
           console.log("UPDATE",this.formValidate)
-        axios.patch('http://localhost:3000/data/' + id , this.formValidate)
+        axios.put('http://localhost:3000/data/' + id , this.formValidate)
           .then(res => {
            console.log("Success", res)
           })
