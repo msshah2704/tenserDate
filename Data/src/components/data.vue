@@ -1,5 +1,72 @@
+<style>
+body
+{
+margin-top: 250px;
+background: url(1.jpg) no-repeat center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.tbl {
+background: -webkit-linear-gradient(top, #8286ee, #c46ee9,#8bc2d3,#e0f1f5);
+border-width: 500px;
+border-radius: 30px;
+overflow: hidden;
+padding: 55px 55px 37px 55px;
+}
+.btn
+{
+font-family: Poppins-Medium;
+font-size: 20px;
+color: #ffffff;
+justify-content: center;
+/* margin-left: 20%; */
+padding: 12px 28px;
+min-width: 120px;
+height: 50px;
+border-radius: 100px;
+background: #9152f8;
+/* width:35%; */
+background: -webkit-linear-gradient(top, #c577f0 ,#6f73e0 ,#88d8ec);
+background: -o-linear-gradient(top, #7579ff, #ba60e0);
+background: -moz-linear-gradient(top, #7579ff, #b224ef);
+background: linear-gradient(top, #7579ff, #b224ef);
+position:right;
+z-index: 1;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+-moz-transition: all 0.4s;
+transition: all 0.4s;
+}
+.btn1
+{
+font-family: Poppins-Medium;
+font-size: 20px;
+color: #ffffff;
+justify-content: center;
+padding: 12px 28px;
+min-width: 120px;
+height: 50px;
+border-radius: 100px;
+background: #9152f8;
+/* width:30%; */
+background: -webkit-linear-gradient(top, #c577f0 ,#6f73e0 ,#88d8ec );
+background: -o-linear-gradient(top, #7579ff, #ba60e0);
+background: -moz-linear-gradient(top, #7579ff, #b224ef);
+background: linear-gradient(top, #7579ff, #b224ef);
+position:right;
+z-index: 1;
+-webkit-transition: all 0.4s;
+-o-transition: all 0.4s;
+-moz-transition: all 0.4s;
+transition: all 0.4s;
+}
+.btn:hover{box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);}
+.btn1:hover{box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);}
+.tbl:hover{box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);}
+</style>
 <template>
-<Form ref="formValidate" :model="formValidate" :rules="ruleValidate" :label-width="80" style="width:50%; margin-left:20%; margin-top:5%">
+<Form class="tbl" ref="formValidate" :model="formValidate" :rules="ruleValidate" :label-width="80" style="width:50%; margin-left:20%; margin-top:5%">
      <FormItem>
       <Input type="hidden" v-model.trim="formValidate.id" />
      </FormItem>
@@ -19,10 +86,10 @@
         <input type="file" id="images" @change="uploadImage" accept="image/*" multiple/>
     </FormItem>
     <FormItem>
-        <Button type="ghost" @click="onupdate()">Update</Button>
-        <Button type="primary" @click="onSubmit('formValidate')">Submit</Button>
-        <Button type="ghost" @click="handleReset('formValidate')" style="margin-left: 8px">Reset</Button>
-        <Button type="primary" @click="onView" style="margin-left: 8px">View</Button>
+        <Button class="btn" type="ghost" @click="onupdate()">Update</Button>
+        <Button class="btn1" type="primary" @click="onSubmit('formValidate')">Submit</Button>
+        <Button class="btn1" type="ghost" @click="handleReset('formValidate')" style="margin-left: 8px">Reset</Button>
+        <Button class="btn1" type="primary" @click="onView" style="margin-left: 8px">View</Button>
     </FormItem>
     <Table :columns="columns1" :data="res"></Table>
 </Form>
