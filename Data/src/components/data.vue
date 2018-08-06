@@ -5,7 +5,24 @@ margin-top: 250px;
 background: url(1.jpg) no-repeat center fixed;
 background-size: cover;
 background-repeat: no-repeat;
-
+}
+.input{
+/* border-radius: ; */
+font-family: Poppins-Regular;
+font-size: 20px;
+color:white;
+line-height: 1.2;
+display: block;
+width: 50%;
+height: 45px;
+background: transparent;
+padding: 0 5px 0 38px;
+}
+.input:wrap{
+width: 50%;
+position: relative;
+border-bottom: 2px solid rgba(255,255,255,0.24);
+margin-bottom: 30px;
 }
 .tbl {
 background: -webkit-linear-gradient(top, #8286ee, #c46ee9,#8bc2d3,#e0f1f5);
@@ -14,39 +31,15 @@ border-radius: 30px;
 overflow: hidden;
 padding: 55px 55px 37px 55px;
 }
-.btn
-{
-font-family: Poppins-Medium;
-font-size: 20px;
-color: #ffffff;
-justify-content: center;
-/* margin-left: 20%; */
-padding: 12px 28px;
-min-width: 120px;
-height: 50px;
-border-radius: 100px;
-background: #9152f8;
-/* width:35%; */
-background: -webkit-linear-gradient(top, #c577f0 ,#6f73e0 ,#88d8ec);
-background: -o-linear-gradient(top, #7579ff, #ba60e0);
-background: -moz-linear-gradient(top, #7579ff, #b224ef);
-background: linear-gradient(top, #7579ff, #b224ef);
-position:right;
-z-index: 1;
--webkit-transition: all 0.4s;
--o-transition: all 0.4s;
--moz-transition: all 0.4s;
-transition: all 0.4s;
-}
 .btn1
 {
 font-family: Poppins-Medium;
 font-size: 20px;
 color: #ffffff;
-justify-content: center;
+/* justify-content: left;
 padding: 12px 28px;
-min-width: 120px;
-height: 50px;
+min-width: 100px;
+height: 50px; */
 border-radius: 100px;
 background: #9152f8;
 /* width:30%; */
@@ -54,45 +47,44 @@ background: -webkit-linear-gradient(top, #c577f0 ,#6f73e0 ,#88d8ec );
 background: -o-linear-gradient(top, #7579ff, #ba60e0);
 background: -moz-linear-gradient(top, #7579ff, #b224ef);
 background: linear-gradient(top, #7579ff, #b224ef);
-position:right;
+/* position:left; */
 z-index: 1;
 -webkit-transition: all 0.4s;
 -o-transition: all 0.4s;
 -moz-transition: all 0.4s;
 transition: all 0.4s;
 }
-.btn:hover{box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);}
 .btn1:hover{box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);}
 .tbl:hover{box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);}
 </style>
 <template>
 <Form class="tbl" ref="formValidate" :model="formValidate" :rules="ruleValidate" :label-width="80" style="width:50%; margin-left:20%; margin-top:5%">
      <FormItem>
-      <Input type="hidden" v-model.trim="formValidate.id" />
+      <Input class="input" type="hidden" v-model.trim="formValidate.id" />
      </FormItem>
     <FormItem label="Name" prop="name">
-        <Input type="text" v-model.trim="formValidate.name" placeholder="Enter your name"/>
+        <Input type="text" class="input" v-model.trim="formValidate.name" placeholder="Enter your name"/>
     </FormItem>
     <FormItem label="E-mail" prop="email">
-        <Input type="text" v-model.trim="formValidate.email" placeholder="Enter your e-mail"/>
+        <Input type="text" class="input" v-model.trim="formValidate.email" placeholder="Enter your e-mail"/>
     </FormItem>
     <FormItem label="Mobile" prop="mobile">
-        <Input type="text" v-model.trim="formValidate.mobile" placeholder="Enter your number" number/>
+        <Input type="text" class="input" v-model.trim="formValidate.mobile" placeholder="Enter your number" number/>
     </FormItem>
     <FormItem label="Address" prop="address">
-        <Input type="text" v-model.trim="formValidate.address" placeholder="Enter your address"/>
+        <Input type="text" class="input" v-model.trim="formValidate.address" placeholder="Enter your address"/>
     </FormItem>
     <FormItem label="Image" prop="images">
         <input type="file" id="images" @change="uploadImage" accept="image/*" multiple/>
     </FormItem>
-    <FormItem>
-        <Button class="btn" type="ghost" @click="onupdate()">Update</Button>
+    <FormItem class="input">
+        <Button class="btn1" type="ghost" @click="onupdate()">Update</Button>
         <Button class="btn1" type="primary" @click="onSubmit('formValidate')">Submit</Button>
         <Button class="btn1" type="ghost" @click="handleReset('formValidate')" style="margin-left: 8px">Reset</Button>
         <Button class="btn1" type="primary" @click="onView" style="margin-left: 8px">View</Button>
     </FormItem>
-    <Table :columns="columns1" :data="res"></Table>
-</Form>
+    <Table v-show="onView ^=false" :columns="columns1" :data="res"></Table>
+    </Form>
 </template>
 <script src="//unpkg.com/vue/dist/vue.js"></script>
 <script src="//unpkg.com/iview/dist/iview.min.js"></script>
@@ -125,7 +117,6 @@ export default {
       },
       id: '',
       isShow: false,
-      seen: true,
       ruleValidate: {
         name: [
           {
@@ -196,6 +187,7 @@ export default {
         {
           title: 'Action',
           key: '',
+          width: 300,
           render: (h, params) => {
             let self = this;
             return h('div', [
@@ -212,7 +204,7 @@ export default {
               } ,'Delete'),
               h('Button', {
                 props: {
-                  type: 'primary'
+                  type: 'ghost'
                 },
                 on: {
                   click: () => {
@@ -317,11 +309,12 @@ export default {
       });
       // self.$refs['formValidate'].resetFields()
     },
-    handleReset(name) {
-      this.$refs[name].resetFields();
+    handleReset(formValidate) {
+      this.$refs[formValidate].resetFields();
       this.isShow = false
     },
     onView() {
+      this.onView = true
       //  var base64Img = require('base64-img');
       this.$Message.success("Success!");
        console.log(this.formValidate)

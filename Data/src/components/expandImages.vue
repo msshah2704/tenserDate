@@ -3,7 +3,7 @@
     <div class="hovereffect" v-for="(item, inx) in row.images" :key="inx">
         <img class="img-responsive" :src="item" width="150" height="150"/>
         <div class="overlay">
-           <br><br><br><br><br><br><br>
+           <!-- <br><br><br><br><br><br> -->
            <Button type="ghost" @click="ondelete(inx)">Delete</Button>
         </div>
     </div>
@@ -50,7 +50,7 @@ export default {
 
 .hovereffect .overlay {
   width: 100%;
-  height: 100;
+  height: 100%;
   position: absolute;
   overflow: hidden;
   top: 0;
